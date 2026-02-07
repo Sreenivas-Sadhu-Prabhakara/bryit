@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Firm | Bryit Builders Corporation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0F1115; }
+        .font-serif { font-family: 'Cinzel', serif; }
+        .gold-border { border-color: #D4AF37; }
+        .text-gold { color: #D4AF37; }
+        .bg-gold { background-color: #D4AF37; }
+        .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    </style>
+</head>
+<body class="text-slate-300 antialiased">
+
+    <nav class="fixed w-full z-50 py-6 px-10 flex justify-between items-center bg-black/90 backdrop-blur-lg border-b border-white/5">
+        <a href="index.html" class="text-2xl font-serif font-bold tracking-widest text-white">
+            BRYIT <span class="text-gold">BUILDERS</span>
+        </a>
+        <div class="hidden md:flex items-center space-x-10 text-[10px] uppercase tracking-[0.4em] font-semibold">
+            <a href="index.html" class="hover:text-gold transition">Home</a>
+            <a href="services.html" class="hover:text-gold transition">Capabilities</a>
+            <a href="portfolio.html" class="hover:text-gold transition">Registry</a>
+            <a href="about.html" class="text-gold">The Firm</a>
+            <a href="contact.html" class="bg-gold text-black px-6 py-2 ml-4 hover:bg-white transition duration-300">Inquiry</a>
+        </div>
+    </nav>
+
+    <!-- Header for About Page -->
+    <header class="relative h-[50vh] flex items-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+             <div class="absolute inset-0 bg-[#0F1115]"></div>
+             <img src="assets/images/about-safety.jmp.png" alt="About Bryit" class="w-full h-full object-cover opacity-30">
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-10 w-full mt-20">
+            <h1 class="text-5xl md:text-7xl font-serif text-white leading-tight">
+                The <span class="text-gold">Firm</span>
+            </h1>
+        </div>
+    </header>
+
+    <section class="py-24 bg-[#121418]">
+        <div class="max-w-7xl mx-auto px-10">
+            <div class="mb-16">
+                <h4 class="text-gold uppercase tracking-[0.6em] text-xs font-bold mb-4">The Executive Board</h4>
+                <h2 class="text-4xl font-serif text-white mb-6 uppercase tracking-widest">Leadership & Legacy</h2>
+                <div class="w-20 h-1 bg-gold"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 mb-20">
+                
+                <div class="flex flex-col md:flex-row gap-8 items-center bg-[#0F1115] p-8 border border-white/5 hover:border-gold/30 transition duration-500">
+                    <div class="w-32 h-32 bg-gray-800 rounded-full overflow-hidden flex-shrink-0 border-2 border-gold flex items-center justify-center">
+                        <svg class="w-20 h-20 text-gray-500" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-serif text-white">Engr. Arcelo Apa-ap</h3>
+                        <p class="text-gold text-[10px] uppercase tracking-[0.3em] font-bold mb-4">Founder & CEO</p>
+                        <p class="text-gray-400 text-sm leading-relaxed">
+                            With over 30 years of field experience as a Service Engineer, Arcelo is the technical backbone of the corporation. His "hands-on" leadership style ensures that every blueprint translates perfectly to reality.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-8 items-center bg-[#0F1115] p-8 border border-white/5 hover:border-gold/30 transition duration-500">
+                    <div class="w-32 h-32 bg-gray-800 rounded-full overflow-hidden flex-shrink-0 border-2 border-gold flex items-center justify-center">
+                        <svg class="w-20 h-20 text-gray-500" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-serif text-white">Mariz Apa-ap</h3>
+                        <p class="text-gold text-[10px] uppercase tracking-[0.3em] font-bold mb-4">CFO & Chief Revenue Officer</p>
+                        <p class="text-gray-400 text-sm leading-relaxed">
+                            The architect of the firm's financial stability. Mariz oversees Business Development and fiscal strategy, ensuring Bryit Builders remains a sustainable and profitable partner for our investors.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <div class="group bg-[#0F1115] p-8 hover:-translate-y-2 transition duration-500 border-t-2 border-transparent hover:border-gold">
+                    <div class="w-16 h-16 bg-gray-800 rounded-full overflow-hidden mb-6 border-2 border-gold flex items-center justify-center">
+                        <svg class="w-10 h-10 text-gray-500" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M3.5 18.49l6-6.01 4 4L22 6.92l-1.41-1.41-7.09 7.97-4-4L2 16.99z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-serif text-white mb-1">Rex Von Brixon Apa-ap, M.Eng</h3>
+                    <p class="text-gold text-[10px] uppercase tracking-widest font-bold mb-6">VP of Engineering & Innovation</p>
+                    <p class="text-gray-500 text-xs leading-relaxed mb-4">
+                        <span class="text-white">Education:</span> Masters in Electronics & Communications Engineering; Masters in Management (AIM).
+                    </p>
+                    <p class="text-gray-400 text-sm">
+                        Rex integrates smart-city technologies into our builds. His dual expertise in engineering and AIM-standard management drives the company's modernization.
+                    </p>
+                </div>
+
+                <div class="group bg-[#0F1115] p-8 hover:-translate-y-2 transition duration-500 border-t-2 border-transparent hover:border-gold">
+                    <div class="w-16 h-16 bg-gray-800 rounded-full overflow-hidden mb-6 border-2 border-gold flex items-center justify-center">
+                        <svg class="w-10 h-10 text-gray-500" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H16c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S5.67 9 6.5 9 8 9.67 8 10.5 7.33 12 6.5 12zm3-4C8.67 8 8 7.33 8 6.5S8.67 5 9.5 5s1.5.67 1.5 1.5S10.33 8 9.5 8zm5 0c-.83 0-1.5-.67-1.5-1.5S13.67 5 14.5 5s1.5.67 1.5 1.5S15.33 8 14.5 8zm3 4c-.83 0-1.5-.67-1.5-1.5S16.67 9 17.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-serif text-white mb-1">Bryshia Van Debonair Apa-ap</h3>
+                    <p class="text-gold text-[10px] uppercase tracking-widest font-bold mb-6">Chief Creative Director</p>
+                    <p class="text-gray-500 text-xs leading-relaxed mb-4">
+                        <span class="text-white">Focus:</span> Architectural Aesthetics & Interior Design.
+                    </p>
+                    <p class="text-gray-400 text-sm">
+                        An up-and-coming force in design, Bryshia ensures that Bryit Builders projects are not just structurally sound, but visually iconic. She leads the aesthetic direction of our luxury portfolio.
+                    </p>
+                </div>
+
+                <div class="group bg-[#0F1115] p-8 hover:-translate-y-2 transition duration-500 border-t-2 border-transparent hover:border-gold">
+                    <div class="w-16 h-16 bg-gray-800 rounded-full overflow-hidden mb-6 border-2 border-gold flex items-center justify-center">
+                        <svg class="w-10 h-10 text-gray-500" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19 3H5c-1.1 0-1.99.9-1.99 2L3 19c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 11h-4v4h-4v-4H6v-4h4V6h4v4h4v4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-serif text-white mb-1">Dr. Queenee Jane Apa-ap, MD</h3>
+                    <p class="text-gold text-[10px] uppercase tracking-widest font-bold mb-6">Director of Health & Safety</p>
+                    <p class="text-gray-500 text-xs leading-relaxed mb-4">
+                        <span class="text-white">Focus:</span> Occupational Health & Compliance.
+                    </p>
+                    <p class="text-gray-400 text-sm">
+                        Bringing a medical doctor's precision to construction safety. Dr. Queenee oversees site bio-safety protocols and occupational health standards, setting a new benchmark for employee welfare.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-20 bg-black text-center border-t border-white/5">
+        <p class="text-[10px] uppercase tracking-[0.5em] text-gray-600">&copy; 2026 Bryit Builders Corp. Private & Confidential.</p>
+    </footer>
+
+</body>
+</html>
